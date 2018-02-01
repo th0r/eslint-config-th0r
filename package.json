@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-th0r",
+  "version": "1.0.0",
+  "description": "Base ESLint config for my projects",
+  "main": "index.json",
+  "files": [
+    "index.json"
+  ],
+  "peerDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.16.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th0r/eslint-config-th0r.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "th0r"
+  ],
+  "author": "th0r <grunin.ya@ya.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/th0r/eslint-config-th0r/issues"
+  },
+  "homepage": "https://github.com/th0r/eslint-config-th0r#readme"
+}
