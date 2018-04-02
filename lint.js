@@ -14,7 +14,7 @@ const args = process.argv.slice(2);
 const fix = args.includes('-f');
 
 try {
-  const cmd = `./node_modules/.bin/eslint -c ./index.json ${fix ? '--fix' : ''} -- ${SOURCES}`;
+  const cmd = `./node_modules/.bin/eslint --no-eslintrc -c ./index.json ${fix ? '--fix' : ''} -- ${SOURCES}`;
   console.log(`Running the following command:\n${cmd}`);
   execSync(cmd, {stdio: 'inherit'});
   console.log('OK');
