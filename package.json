@@ -7,12 +7,12 @@
     "index.json"
   ],
   "peerDependencies": {
-    "babel-eslint": "^8.2.2",
-    "eslint": "^4.19.1"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.2",
-    "eslint": "^4.19.1"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0"
   },
   "repository": {
     "type": "git",
